@@ -5,7 +5,7 @@
 		var defaults = $.extend(defaults, userOptions),
 		target = this;
 		
-		if(!(document.compatMode == 'CSS1Compat')) {
+		if(document.compatMode != 'CSS1Compat') {
 			var $body = $('body');
 			var title = $('<p>Awe-shee-et!<br /></p>');
 			var message = $('<span>- Quirks Mode Strikes Again -</span>');
