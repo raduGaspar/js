@@ -1,14 +1,10 @@
 (function($) {
-	$.fn.detectQuirksMode = function(userOptions) {
-		var defaults = {};
-		
-		var defaults = $.extend(defaults, userOptions),
-		target = this;
+	$.fn.detectQuirksMode = function() {
 		
 		if(document.compatMode != 'CSS1Compat') {
 			var $body = $('body');
-			var title = $('<p>Awe-shee-et!<br /></p>');
-			var message = $('<span>- Quirks Mode Strikes Again -</span>');
+			var title = $('<p>Awe&ndash;shee&ndash;et!<br /></p>');
+			var message = $('<span>&ndash; Quirks Mode Strikes Again &ndash;</span>');
 			$body.empty();
 			$body.append(title);
 			title.append(message);
@@ -27,7 +23,6 @@
 			
 		}
 		
-		return target;
-		
+		return this;
 	};
 })(jQuery);
