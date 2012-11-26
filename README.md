@@ -17,7 +17,7 @@ Usage:
 		
 		/**
 		 * detectQuirksMode
-		 * If the browser's in Quirks Mode it will remove all `body` contents and display the Quirks Mode message.
+		 * If the browser's in Quirks Mode it will remove all "body" contents and display the Quirks Mode message.
 		 */
 		$(document).detectQuirksMode();
 	});
