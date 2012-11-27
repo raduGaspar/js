@@ -3,7 +3,7 @@
 		
 		if(document.compatMode != 'CSS1Compat') {
 			var $body = $('body');
-			var title = $('<p>Awe&ndash;shee&ndash;et!<br /></p>');
+			var title = $('<p>Awe &ndash; shee &ndash; et!<br /></p>');
 			var message = $('<span>&ndash; Quirks Mode Strikes Again &ndash;</span>');
 			$body.empty();
 			$body.append(title);
