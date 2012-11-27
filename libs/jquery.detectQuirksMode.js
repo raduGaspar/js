@@ -12,12 +12,13 @@
 				'color' : 'red',
 				'text-align' : 'center',
 				'font-size' : '30px',
+				'line-height' : '1.2em',
 				'font-weight' : 'bold'
 			});
 			
 			message.css({
-				'color' : 'red',
-				'text-align' : 'center',
+				'color' : 'black',
+				'line-height' : '1em',
 				'font-size' : '14px'
 			});
 			
