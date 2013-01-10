@@ -6,7 +6,16 @@
     });
 
     function draw() {
-      var svg = target.svg('get'), barW = target.outerWidth(), barH = target.outerHeight(), colorPercentage, radians, redShift, greenShift, blueShift, color, thickness;
+      var svg = target.svg('get'),
+          barW = target.outerWidth(),
+          barH = target.outerHeight(),
+          colorPercentage,
+          radians,
+          redShift,
+          greenShift,
+          blueShift,
+          color,
+          thickness;
 
       svg.clear();
       thickness = 1 + (barW / 50);

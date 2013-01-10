@@ -11,7 +11,16 @@
     });
 
     function draw() {
-      var svg = target.svg('get'), radius = defaults.radius, radians, redOffset, greenOffset, blueOffset, color, destX, destY, thickness;
+      var svg = target.svg('get'),
+          radius = defaults.radius,
+          radians,
+          redOffset,
+          greenOffset,
+          blueOffset,
+          color,
+          destX,
+          destY,
+          thickness;
 
       svg.clear();
       thickness = 1 + (radius / 50);
